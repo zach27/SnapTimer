@@ -853,6 +853,7 @@ begin
   Windows.MessageBox(GetHandle(), pChar(msg), 'Done',
      MB_SYSTEMMODAL or MB_SETFOREGROUND or MB_TOPMOST or MB_ICONINFORMATION);
   StopAudio();
+  halt();
 end;
 
 function TMainForm.GetHandle(): HWND;
