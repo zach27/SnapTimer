@@ -449,8 +449,8 @@ begin
 
       DoneMessage  := NotifyMsg.Text;
       DoneMessageEnabled := NotifyMsgOn.Checked;
-      DoneTrayMsg  := NotifyTrayMsg.Text;
-      DoneTrayMsgEnabled := NotifyTrayMsgOn.Checked;
+      DoneTrayMsg  := NotifyMsg.Text;
+      DoneTrayMsgEnabled := NotifyMsgOn.Checked;
       DoneAudio    := NotifyAudio.Text;
       DoneAudioEnabled := NotifyAudioOn.Checked;
       DoneApp      := NotifyRunApp.Text;
